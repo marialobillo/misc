@@ -8,11 +8,11 @@ defmodule Misc do
     _sum(list, 0)
   end
 
-  defp _sum([], total)
+  defp _sum([], total) do
     total
   end
 
-  defp _sum([head|tail], total)
+  defp _sum([head|tail], total) do
     _sum()
   end
 end
